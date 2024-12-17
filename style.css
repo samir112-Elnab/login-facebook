@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("bmw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif; display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+#sinup {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: white; 
+    margin-top: 150px; 
+}
+/* i{
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+} */
+.username , .password , .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    padding: 5px;
+}
+.email label , .username label , .password label {
+    padding-right: 88px;
+    padding-top: 10px;
+    margin-bottom: 8px;
+    color: blue;
+
+
+}
+.email input , .username input , .password input {
+    
+    /* width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); */
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+       border: 3px solid blue;
+       padding: 10px;
+       background-color: rgba(0, 0, 0, 0);
+       color: white;
+}
+ a ,i, h3 {
+   
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-shadow: 1px 1px white;
+}
+.submit input{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0,0.1);
+    color:blue  ;
+    border: 1.5px solid white;
+    margin: 10px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.submit input:hover{
+    background-color: white;
+    color: black;
+}
+.submit a{
+    color: blue;
+    text-shadow: none;
+    text-decoration: underline;
+
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.supmit ,a,.forget:hover{
+    color: white;
+    text-decoration: none;
+}
